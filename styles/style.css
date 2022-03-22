@@ -109,7 +109,7 @@ button {
 .character {
 }
 
-.health-container {
+.character-health {
 }
 
 .potion-container {
@@ -146,4 +146,8 @@ button {
     display: flex;
     border: solid 1px black;
     margin: 15px;
+}
+
+.hidden {
+    display: none;
 }
