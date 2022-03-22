@@ -21,3 +21,14 @@ export function renderGoblin(goblin) {
 
     return goblinEl;
 }
+
+export function renderPotions(numberOfPotions) {
+    const potionsEl = document.createElement('p');
+    potionsEl.textContent = 'Potions: ';
+    for (let i = 1; i <= numberOfPotions; i++) {
+        const potionSpan = document.createElement('span');
+        potionSpan.textContent = '🧪';
+        potionsEl.append(potionSpan);
+    }
+    return potionsEl;
+}
